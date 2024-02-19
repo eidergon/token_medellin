@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn button {
+  margin-top: 10px;
+  padding: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #4086d6;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  width: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.btn button:hover {
+  background: #d6770a;
+  transition: all 0.5s ease;
+}
+
+#deleteButton {
+  background: #d6770a;
+}
